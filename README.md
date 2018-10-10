@@ -36,10 +36,7 @@ public class MainActivity extends Activity {
     }
 }
 
-
-
-
-# activity_nain.xml
+# activity_main.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,8 +57,8 @@ public class MainActivity extends Activity {
 
 </android.support.constraint.ConstraintLayout>
 
+# Receiver.java
 
-#Receiver.java
 package kr.ac.mjc.js.activity_event_example03;
 
 import android.content.BroadcastReceiver;
@@ -85,7 +82,7 @@ public class Receiver extends BroadcastReceiver {
 
 
 
-#AndroidManifest.xml
+# AndroidManifest.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
